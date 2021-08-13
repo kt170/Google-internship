@@ -13,7 +13,6 @@ def _csv_reader_with_strip(reader):
 
 class VideoLibrary:
     """A class used to represent a Video Library."""
-
     def __init__(self):
         """The VideoLibrary class is initialized."""
         self._videos = {}
