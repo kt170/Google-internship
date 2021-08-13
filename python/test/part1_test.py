@@ -1,5 +1,5 @@
 import re
-from src.video_player import VideoPlayer
+from TRY2.video_player import VideoPlayer
 
 
 def test_number_of_videos(capfd):

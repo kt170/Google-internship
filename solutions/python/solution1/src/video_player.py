@@ -59,7 +59,7 @@ class VideoPlayer:
         """Plays the respective video.
 
         Args:
-            video_id: The video_id to be played.
+            video_id: The video_id to be played
         """
 
         try:
@@ -122,7 +122,6 @@ class VideoPlayer:
 
     def show_playing(self):
         """Displays video currently playing."""
-
         if self._playback.state == PlaybackState.PLAYING:
             print(f"Currently playing: {self._playback.get_video()}")
         elif self._playback.state == PlaybackState.PAUSED:
